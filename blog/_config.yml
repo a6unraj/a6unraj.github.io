@@ -1,45 +1,42 @@
-# Site Info
-title:              "The Plain"
-description:        "A minimalist Jekyll theme"
-author_name:        "Heiswayi Nrird" # change this to your name
-logo_url:           https://avatars0.githubusercontent.com/u/13794983?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+# Title of your blog; shows in the header
+name: "hikari"
 
-# Site Settings
-url:                https://heiswayi.github.io # main url
-baseurl:            /the-plain
-permalink:          /:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to 'false' to disable
+# Description of your content (will only be used on Google Search)
+description: "Fluid, responsive blog theme for Jekyll"
 
-# Site Build
-highlighter:        rouge
-markdown:           kramdown
-kramdown:
-    input:          GFM
-sass:
-    style:          :compressed
+# Your name. Will show in your footer + sidebar
+author: "John Doge"
 
-# Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+url: "http://m3xm.github.io"
+baseurl: "/hikari-for-jekyll"
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
+author-bio: "I'm a dog. I develop things. This is my blog so why don't you close this damn side panel (cursed by most UX Designers but I don't care, I do whatever I want) and start reading my awesome stuff?"
+
+# Social Accounts (mine, as placeholders)
+
+twitter: mx3m
+github: m3xm
+dribbble: m3xm
+instagram: m3xm
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+ga_domain: m3xm.github.io
+ga_tracking_id: UA-47727049-1
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
+markdown: kramdown
+permalink: pretty
 plugins:
-  - jekyll-sitemap
+  - jekyll-paginate
 
+paginate: 10
+paginate_path: "/page/:num"
 
+# SCSS
 
-defaults:
-  -
-    scope:
-      path:         ""
-    values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"
+sass:
+  sass_dir: _scss
+  style: :compressed

@@ -1,60 +1,83 @@
-# The Plain
+# hikari
 
-> The Plain is a minimalist Jekyll theme, ideally designed for your personal blog use. This Jekyll theme provides a minimum distraction so you can focus on writing that matters to you and your readers. This theme is originally inspired from [Leonard Lamprecht's _leo_ theme](https://github.com/leo/leo.github.io).
+Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for dev-savvy bloggers who wants to get started with Jekyll in a very minimal way. 
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg) ![VERSION](https://img.shields.io/badge/current_version-4.0-green.svg) ![TRAVIS-CI](https://travis-ci.org/heiswayi/the-plain.svg?branch=master)
+- SCSS!
+- Responsive
+- Lightweight (no JS library has been abused here)
 
-- **Demo:** https://heiswayi.github.io/the-plain/
+![preview](https://dl.dropboxusercontent.com/u/7539881/Hikari/hikari-screenshot.png)
 
-![SCREENSHOT](https://i.imgur.com/FITKN1H.png)
+![preview](https://dl.dropboxusercontent.com/u/7539881/Hikari/hikari-screenshot-2.png)
 
-## Usage
+![preview](https://dl.dropboxusercontent.com/u/7539881/Hikari/hikari-screenshot-3.png)
 
-### On an unlimited Jekyll host
+[View demo](http://m3xm.github.io/hikari-for-Jekyll)
 
-> **NOTE** This does NOT work on GitHub, see the next section.
 
-Put this in your *Gemfile*:
+### How to install
 
-	gem 'the-plain'
+1. Clone this repo
+2. Customize \_config.yml and replace all dummy posts by yours
+3. Change your profile picture in `~/assets/img/avatar.jpg`
+3. Publish (I recommend [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages), it's free)
 
-and run `bundle install` to install the plugin.
 
-Add this to your sites *_config.yml* file:
+### Development
 
-	theme: the-plain
+- `master` for development and pull requests.
+- `gh-pages` for the demo page; don't bother.
 
-Then copy some of the settings from this repo's *_config.yml* file to your own, and modify them.
 
-### On GitHub
+#### Running locally
 
-GitHub - for your user account pages or repository gh-pages - only supports a limited set of themes.
+1. Clone this repo
+2. Install required dependencies with [Bundler](http://bundler.io/)
 
-Therefore, you need to use the 'remote\_theme:' setting instead of 'theme:', which is supported by [a 3rd party plugin](https://github.com/benbalter/jekyll-remote-theme).
+        bundle install
+3. Run the site with Jekyll
 
-Put this in your *Gemfile*:
+        bundle exec jekyll serve --watch
+4. Visit the site at [http://localhost:4000](http://localhost:4000)
 
-	gem 'jekyll-remote-theme'
 
-and run `bundle install` to install the plugin.
+### Author
 
-Add the following to your site's *_config.yml* to activate the plugin and to select this theme:
+**Mathieu Mayer-Mazzoli**
+- <http://m3xm.github.io>
+- <http://twitter.com/mx3m>
+- <http://www.dribbble.com/m3xm>
 
-	plugins:
-	  - jekyll-remote-theme
 
-	remote_theme: heiswayi/the-plain
+### Main Contributors
 
-This will grab the theme directly from the GitHub repo.
+**Ross Allen**
+- <https://github.com/ssorallen>
 
-Now copy some of the settings from this repo's *_config.yml* file to your own, and modify them.
+**Julien Rousseau**
+- <https://github.com/evarouss>
 
-## Authors
 
-- [**Heiswayi Nrird**](https://heiswayi.nrird.com)
+### License
 
-See also the list of [contributors](https://github.com/heiswayi/the-plain/graphs/contributors) who participated in this project.
+The MIT License (MIT)
 
-## License
+Copyright (c) 2015 Mathieu Mayer-Mazzoli
 
-[MIT](LICENSE)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
