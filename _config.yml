@@ -1,16 +1,16 @@
 # Site settings
 title_left    : "A6un's Web Log"
-title_right   : "-SAP Blog" # default: ""
+title_right   : "" # default: ""
 description   : "SAP Blog"
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url           : https://a6unraj.com/sap # site url
+url           : https://a6unraj.com/me # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
-google_analytics  : UA-34033689-1
-twitter_username  : "a6unraj"
-comments_enabled  : true # if enabled (set to true), please provide your disqus_username
-disqus_shortname  : "a6unraj"
+google_analytics  : UA-XXXXX-XX
+twitter_username  : ""
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
 postshare_enabled : false
 
 # Build settings
