@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|Satisfy");
+
+body:before {
+  content: "";
+  position: fixed;
+  left: -3px;
+  right: 0;
+  top: -3px;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  width: 102vw;
+  height: 102vh;
+  background-image: url("https://static.tumblr.com/sru6zaq/ysFpfg25q/bg.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  font-family: "Poiret One";
+}
+
+#card-toggle {
+  display: none;
+}
+
+.card {
+  display: block;
+  width: 450px;
+  height: 315px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-perspective: 1750px;
+  -moz-perspective: 1750px;
+  -o-perspective: 1750px;
+  -ms-perspective: 1750px;
+  perspective: 1750px;
+  -webkit-transition: all 0.75s ease-out;
+  -moz-transition: all 0.75s ease-out;
+  -o-transition: all 0.75s ease-out;
+  -ms-transition: all 0.75s ease-out;
+  transition: all 0.75s ease-out;
+}
+
+#notice {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0px 0px 8px #d0d0d0;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+#notice.show {
+  opacity: 1;
+  bottom: -50px;
+}
+
+.card:hover .face {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #de68a4;
+  box-sizing: border-box;
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.front {
+  z-index: 3;
+  -webkit-transform: rotateX(5deg);
+  -moz-transform: rotateX(5deg);
+  -o-transform: rotateX(5deg);
+  -ms-transform: rotateX(5deg);
+  transform: rotateX(5deg);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front img {
+  width: 100%;
+}
+
+.inner-top {
+  z-index: 2;
+  background-image: url("https://static.tumblr.com/sru6zaq/xkzpfg260/innertop.png");
+  background-size: contain;
+  -webkit-transform: rotateX(5deg);
+  -moz-transform: rotateX(5deg);
+  -o-transform: rotateX(5deg);
+  -ms-transform: rotateX(5deg);
+  transform: rotateX(5deg);
+}
+
+.inner-top .contents {
+  height: 75%;
+  padding: 20px;
+  width: 270px;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+
+.inner-top .contents h2 {
+  margin-top: 0;
+  font-family: "Satisfy";
+}
+
+.inner-bottom {
+  z-index: 1;
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+.inner-bottom .details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.inner-bottom .details > div {
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.inner-bottom > div p {
+  text-align: center;
+  line-height: 0;
+}
+
+.card:hover .front,
+.card:hover .inner-top {
+  -webkit-transform: rotateX(25deg);
+  -moz-transform: rotateX(25deg);
+  -o-transform: rotateX(25deg);
+  -ms-transform: rotateX(25deg);
+  transform: rotateX(25deg);
+}
+
+#card-toggle:checked + .card {
+  -webkit-transform: translate(-50%, 0) rotate(-2deg);
+  -moz-transform: translate(-50%, 0) rotate(-2deg);
+  -o-transform: translate(-50%, 0) rotate(-2deg);
+  -ms-transform: translate(-50%, 0) rotate(-2deg);
+  transform: translate(-50%, 0) rotate(-2deg);
+}
+
+#card-toggle:checked + .card .inner-top {
+  box-shadow: 0px 0px 15px #000000;
+  z-index: 0;
+}
+
+#card-toggle:checked + .card .front,
+#card-toggle:checked + .card .inner-top {
+  -webkit-transform: rotateX(170deg);
+  -moz-transform: rotateX(170deg);
+  -o-transform: rotateX(170deg);
+  -ms-transform: rotateX(170deg);
+  transform: rotateX(170deg);
+}
+
+.card-toggle:checked + .card .inner-bottom {
+  -webkit-transform: rotateY(15deg);
+  -moz-transform: rotateY(15deg);
+  -o-transform: rotateY(15deg);
+  -ms-transform: rotateY(15deg);
+  transform: rotateY(15deg);
+}
