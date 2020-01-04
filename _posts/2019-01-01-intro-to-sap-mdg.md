@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Markdown Cheatsheet Demo"
+title: "Introduction to SAP MDG"
 comments: true
-description: "Markdown Cheatsheet Demo..."
-keywords: "markdown, typography components, dummy content"
+description: "Introduction to SAP MDG"
+keywords: "SAP MDG"
 ---
 
 ## Typography Elements in One
