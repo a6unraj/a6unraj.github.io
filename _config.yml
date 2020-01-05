@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "Arun Raj"
 title_right   : "" # default: ""
-description   : "SAP Blog"
+description   : "A6un's SAP Blog"
 keywords      : "Arun Raj, SAP Technical Consultant, SAP MDG, SAP CRM, MDG, CRM"
 url           : https://a6unraj.com/sap # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
