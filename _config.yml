@@ -1,11 +1,11 @@
 # Site settings
-title_left    : "A6un's Web Log"
+title_left    : "Arun Raj"
 title_right   : "" # default: ""
 description   : "SAP Blog"
-keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+keywords      : "Arun Raj, SAP Technical Consultant, SAP MDG, SAP CRM, MDG, CRM"
 url           : https://a6unraj.com/sap # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
-cover         : "" # image uri like logo/cover image for site seo
+cover         : "http://a6unraj.com/img/profile.png" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-XXXXX-XX
 twitter_username  : ""
