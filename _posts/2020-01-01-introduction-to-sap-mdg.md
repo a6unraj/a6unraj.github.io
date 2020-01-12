@@ -15,10 +15,3 @@ keywords: "SAP MDG"
 - Or minuses
 + Or pluses
 
-<div class="divider"></div>
-
-### Image
-
-![Minion](http://octodex.github.com/images/minion.png)
-
----
