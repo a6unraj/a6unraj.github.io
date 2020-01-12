@@ -22,15 +22,15 @@ It is used to consolidate and centrally govern the master data lifecycle with it
 6.Master Data Governance for Custom Objects (MDG-CO)<br/>
 
 ### Installation Guides
-MDG 9.2 <a href="https://launchpad.support.sap.com/#/notes/2645428">https://launchpad.support.sap.com/#/notes/2645428</a><br/>
-MDG 9.0 <a href="https://launchpad.support.sap.com/#/notes/2248866">https://launchpad.support.sap.com/#/notes/2248866</a><br/>
-Deployment Recommendation <a href ="https://www.sap.com/documents/2018/08/3e8b093f-167d-0010-87a3-c30de2ffd8ff.html">https://www.sap.com/documents/2018/08/3e8b093f-167d-0010-87a3-c30de2ffd8ff.html</a>
 
-### SAP Community
-<a href ="https://community.sap.com/topics/master-data-governance">https://community.sap.com/topics/master-data-governance</a>
+Product Documentation <a href = "https://community.sap.com/topics/master-data-governance/product-documentation">https://community.sap.com/topics/master-data-governance/product-documentation</a><br/>
+Installation steps <a href="https://launchpad.support.sap.com/#/notes/2645428">https://launchpad.support.sap.com/#/notes/2645428</a><br/>
+Deployment Recommendations <a href ="https://www.sap.com/documents/2018/08/3e8b093f-167d-0010-87a3-c30de2ffd8ff.html">https://www.sap.com/documents/2018/08/3e8b093f-167d-0010-87a3-c30de2ffd8ff.html</a>
 
-### Technical Documentation
-<a href ="https://help.sap.com/viewer/db97296fe85d45f9b846e8cd2a580fbd/MDG92.SP02/en-US">https://help.sap.com/viewer/db97296fe85d45f9b846e8cd2a580fbd/MDG92.SP02/en-US</a>
+### Help
 
-### Sap Help
-<a href="https://help.sap.com/viewer/product/SAP_MASTER_DATA_GOVERNANCE/MDG92.SP02/en-US">https://help.sap.com/viewer/product/SAP_MASTER_DATA_GOVERNANCE/MDG92.SP02/en-US</a>
+SAP Community <a href ="https://community.sap.com/topics/master-data-governance">https://community.sap.com/topics/master-data-governance</a><br/>
+Technical documentation <a href ="https://help.sap.com/viewer/db97296fe85d45f9b846e8cd2a580fbd/MDG92.SP02/en-US">https://help.sap.com/viewer/db97296fe85d45f9b846e8cd2a580fbd/MDG92.SP02/en-US</a><br/>
+Help Home page <a href="https://help.sap.com/viewer/product/SAP_MASTER_DATA_GOVERNANCE/MDG92.SP02/en-US">https://help.sap.com/viewer/product/SAP_MASTER_DATA_GOVERNANCE/MDG92.SP02/en-US</a><br/>
+
+<div class="divider"></div>
