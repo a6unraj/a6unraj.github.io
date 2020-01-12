@@ -11,7 +11,7 @@ It is used to consolidate and centrally govern the master data lifecycle with it
 Installation Guide into the ERP system.
 https://launchpad.support.sap.com/#/notes/2645428
 
-## Differente MDG Models
+## Different MDG Models
 
 1.Master Data Governance for Financials ( MDG-F)
 2.Master Data Governance for Material ( MDG-M)
