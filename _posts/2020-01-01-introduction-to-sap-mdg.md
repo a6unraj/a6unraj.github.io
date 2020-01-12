@@ -6,7 +6,7 @@ description: "Introduction to SAP MDG"
 keywords: "SAP MDG"
 ---
 
-### Product Overview
+## Product Overview
 https://www.sap.com/products/master-data-governance.html
 SAP MDG in short is an add on product in the SAP ERP business suite.
 It is used to consolidate and centrally govern the master data lifecycle with its prebuilt data models, business rules, workflow and user interfaces.
