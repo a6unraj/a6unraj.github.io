@@ -7,7 +7,7 @@ keywords: "SAP MDG"
 ---
 
 I have few quick views created in SQVI and want it to be shared to other users.
-http://a6unraj.com/sap/assets/images/img1.jpg
+![img1] (http://a6unraj.com/sap/assets/images/img1.jpg)
 From the description of the Quick View, I can fetch the user group of my QuickViews.
 http://a6unraj.com/sap/assets/images/img2.jpg
 The user who wants to access my quickviews can access it from the transaction SQ01.
