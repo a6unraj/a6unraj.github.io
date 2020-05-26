@@ -18,11 +18,8 @@ The user who wants to access my quickviews can access it from the transaction SQ
 1. In SQ01 : Menu Environment -> Query Areas, select Standard area ( client-specific )
 ![img4](http://a6unraj.com/sap/assets/images/img4.jpg)
 
-1. Edit-> Other user group
-
+1. Edit-> Other user group and select the user group related to the quick view of the  user which has to be accessed
 ![img5](http://a6unraj.com/sap/assets/images/img5.jpg)
-
-Select the user group related to the quick view of the  user which has to be accessed
 
 1. This will list the quick views of the user and can be executed
 ![img6](http://a6unraj.com/sap/assets/images/img6.jpg)
