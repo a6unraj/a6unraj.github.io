@@ -15,7 +15,7 @@ From the description of the Quick View, I can fetch the user group of my QuickVi
 The user who wants to access my quickviews can access it from the transaction SQ01.
 ![img3](http://a6unraj.com/sap/assets/images/img3.jpg)
 
-1. In SQ01 : Menu Environment -> Query Areas, select Standard area ( client-specific )
+1. In SQ01 : Menu Environment -> Query Areas, select Standard area(client-specific)
 ![img4](http://a6unraj.com/sap/assets/images/img4.jpg)
 
 1. Edit-> Other user group and select the user group related to the quick view of the  user which has to be accessed
