@@ -32,14 +32,12 @@ After the completion of the wizard setup verify that the transaction launcher se
 ![img18](http://a6unraj.com/sap/assets/images/img18.jpg)
 ![img19](http://a6unraj.com/sap/assets/images/img19.jpg)
 
-STEP 3 : Navigation Bar Profile Setup
-
+STEP 3 : Navigation Bar Profile Setup <br/>
 Goto Navigation Bar profile setup and Create a logical link for the above created Transaction Launch ID(pass Transaction launch ID to the parameter below)
 ![img20](http://a6unraj.com/sap/assets/images/img20.jpg)
 ![img21](http://a6unraj.com/sap/assets/images/img21.jpg)
 
-STEP 4: Workcenter Group setup
-
+STEP 4: Workcenter Group setup <br/>
 Identity where the links have to be made available in CRM web UI.
 For example I want the links to be added in the below 2 places- in menu and under search section,
 ![img22](http://a6unraj.com/sap/assets/images/img22.jpg)
@@ -54,8 +52,7 @@ MD-BP-SR is the workcenter link group for Business Partner Search, so we have to
 Insert the logic link to the work center link group id
 ![img25](http://a6unraj.com/sap/assets/images/img25.jpg)
 
-STEP 5: Navigation Bar Profile Setup for business roles
-
+STEP 5: Navigation Bar Profile Setup for business roles <br/>
 Identify the business roles for which the links of the report have to be shown.
 ![img26](http://a6unraj.com/sap/assets/images/img26.jpg)
 
