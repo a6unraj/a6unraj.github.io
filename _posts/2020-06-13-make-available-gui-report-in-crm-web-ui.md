@@ -6,16 +6,16 @@ description: "Make available GUI report on CRM Web UI"
 keywords: "SAP CRM"
 ---
 
-I have a GUI report (standard or z-report) and want it to be available in WebUI.
+I have a GUI report (standard or z-report) and want it to be available in WebUI. <br/>
+
 ![img7](http://a6unraj.com/sap/assets/images/img7.jpg)
 
-STEP 1: Create T-code
+STEP 1: Create T-code <br/>
 
 T-code has to be created for the report. In the tcode setup(SE93) enable SAP GUI for HTML.
 ![img8](http://a6unraj.com/sap/assets/images/img8.jpg)
 
-STEP 2 : Transaction Launcher Setup
-
+STEP 2 : Transaction Launcher Setup <br/>
 Configure transaction launcher using wizard and generate launch transaction ID.
 
 ![img9](http://a6unraj.com/sap/assets/images/img9.jpg)
