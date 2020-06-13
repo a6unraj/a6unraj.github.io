@@ -10,10 +10,12 @@ I have a GUI report (standard or z-report) and want it to be available in WebUI.
 ![img7](http://a6unraj.com/sap/assets/images/img7.jpg)
 
 STEP 1: Create T-code
+
 T-code has to be created for the report. In the tcode setup(SE93) enable SAP GUI for HTML.
 ![img8](http://a6unraj.com/sap/assets/images/img8.jpg)
 
 STEP 2 : Transaction Launcher Setup
+
 Configure transaction launcher using wizard and generate launch transaction ID.
 
 ![img9](http://a6unraj.com/sap/assets/images/img9.jpg)
@@ -31,11 +33,13 @@ After the completion of the wizard setup verify that the transaction launcher se
 ![img19](http://a6unraj.com/sap/assets/images/img19.jpg)
 
 STEP 3 : Navigation Bar Profile Setup
+
 Goto Navigation Bar profile setup and Create a logical link for the above created Transaction Launch ID(pass Transaction launch ID to the parameter below)
 ![img20](http://a6unraj.com/sap/assets/images/img20.jpg)
 ![img21](http://a6unraj.com/sap/assets/images/img21.jpg)
 
 STEP 4: Workcenter Group setup
+
 Identity where the links have to be made available in CRM web UI.
 For example I want the links to be added in the below 2 places- in menu and under search section,
 ![img22](http://a6unraj.com/sap/assets/images/img22.jpg)
@@ -51,6 +55,7 @@ Insert the logic link to the work center link group id
 ![img25](http://a6unraj.com/sap/assets/images/img25.jpg)
 
 STEP 5: Navigation Bar Profile Setup for business roles
+
 Identify the business roles for which the links of the report have to be shown.
 ![img26](http://a6unraj.com/sap/assets/images/img26.jpg)
 
