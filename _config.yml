@@ -24,7 +24,7 @@ destination : ./_site
 # Sass configuration
 sass:
   sass_dir  : assets/scss
-  style     : expanded # compressed
+  style     : compressed # expanded
 
 # Author settings
 author:
