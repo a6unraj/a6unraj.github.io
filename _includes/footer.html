@@ -4,19 +4,12 @@
   </div>
 </footer>
 
-</script>
-  <script type='text/javascript'>
-$( document ).ready(fixUrls);
-window.addEventListener("scroll", fixUrls);
-
+ <script>
 var linkRewriter = function(a, b) {
     $('a[href*="' + a + '"]').each(function() {
         $(this).attr('href', $(this).attr('href').replace(a, b));
     });
 };
 
-if (location.host == 'arunraj.eu')
-{
 linkRewriter('a6unraj.com', 'arunraj.eu');
-}
 </script>
