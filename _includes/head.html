@@ -109,16 +109,14 @@ scJsHost+
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
   </script>
   <script type='text/javascript'>
-$( document ).ready(fixUrls);
-window.addEventListener("scroll", fixUrls);
+<script>
+  if (location.host == 'sap.a6unraj.com')
+{
+  location.replace(location.href.replace('sap.a6unraj.com', 'a6unraj.com/sap'));
+}
 
-var linkRewriter = function(a, b) {
-    $('a[href*="' + a + '"]').each(function() {
-        $(this).attr('href', $(this).attr('href').replace(a, b));
-    });
-};
+</script>        
 
-linkRewriter('a6unraj.com', 'arunraj.eu');
 </script>
 
 </head>
