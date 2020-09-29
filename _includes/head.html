@@ -15,8 +15,24 @@ document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+
 "statcounter.com/counter/counter.js'></"+"script>");
 </script>
-        
+ <script>
+  if (location.host == 'sap.a6unraj.com')
+{
+  location.replace(location.href.replace('sap.a6unraj.com', 'a6unraj.com/sap'));
+}
+</script>
+  <script>
+var linkRewriter = function(a, b) {
+    $('a[href*="' + a + '"]').each(function() {
+        $(this).attr('href', $(this).attr('href').replace(a, b));
+    });
+};
 
+if (location.host == 'arunraj.eu/sap')
+{
+linkRewriter('a6unraj.com', 'arunraj.eu');
+}
+</script>
   {% assign page_title = '' %}
   {% if page.title == "Home" %}
       {% capture page_title %}
@@ -109,7 +125,4 @@ scJsHost+
   {% endif %}
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
- 
- 
-
 </head>
