@@ -1,12 +1,12 @@
 <nav class="side">
     <div class="side__inner">
         <div class="menu">
-        <a href="./../" title="Home">Home</a>
-        <a href="./../blog" title="Blog">Blog</a>   
-        <a href="./../sap" title="SAP Tutorials"  style="font-weight:800">SAP</a>
-        <a href="./../reviews" title="Reviews">Reviews</a>    
-        <a href="./../memories" title="Memories">Memories</a>    
-        <a href="./../timeline" title="Timeline">Timeline</a>
+        <a href="https://a6unraj.com" title="Home">Home</a>
+        <a href="https://a6unraj.com/blog" title="Blog">Blog</a>   
+        <a href="https://a6unraj.com/sap" title="SAP Tutorials"  style="font-weight:800">SAP</a>
+        <a href="https://a6unraj.com/reviews" title="Reviews">Reviews</a>    
+        <a href="https://a6unraj.com/memories" title="Memories">Memories</a>    
+        <a href="https://a6unraj.com/timeline" title="Timeline">Timeline</a>
         </div>
     </div>
 </nav>
@@ -18,3 +18,18 @@
     </ul>
   </div>
 </nav>
+
+</script>
+  <script type='text/javascript'>
+//<![CDATA[
+var linkRewriter = function(a, b) {
+$('a[href*="' + a + '"]').each(function() {
+        $(this).attr('href', $(this).attr('href').replace(a, b));
+    });
+};
+if (location.host == 'arunraj.eu')
+{
+linkRewriter('a6unraj.com', 'arunraj.eu');
+}
+//]]>
+</script>
