@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Make available GUI report on CRM Web UI"
+title: "Make available SAP GUI report on CRM Web UI"
 comments: true
-description: "Make available GUI report on CRM Web UI"
+description: "Make available SAP GUI report on CRM Web UI"
 keywords: "SAP CRM"
 ---
 
