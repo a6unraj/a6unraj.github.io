@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+I'm Arun Raj. I am a SAP Techical Consultant and I help build custom solutions for Master Data Management in my organization.
