@@ -1,5 +1,5 @@
-# A6un's SAP Blog
+# A6un's Tech Blog
 
-> A space to log my experiences in SAP.
+> A space to log my experiences as a developer.
 
-- **URL:** https://arunraj.eu/sap
+- **URL:** https://arunraj.eu/tech
