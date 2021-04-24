@@ -17,28 +17,7 @@ document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+
 "statcounter.com/counter/counter.js'></"+"script>");
 </script>
- <script>
-  if (location.host == 'tech.arunraj.eu')
-{
-  location.replace(location.href.replace('tech.arunraj.eu', 'arunraj.eu/tech'));
-}
-   if (location.host == 'a6unraj.com')
-{
-  location.replace(location.href.replace('a6unraj.com', 'arunraj.eu'));
-}
-</script>
-  <script>
-var linkRewriter = function(a, b) {
-    $('a[href*="' + a + '"]').each(function() {
-        $(this).attr('href', $(this).attr('href').replace(a, b));
-    });
-};
-
-if (location.host == 'arunraj.eu/tech')
-{
-linkRewriter('a6unraj.com', 'arunraj.eu');
-}
-</script>
+ 
   {% assign page_title = '' %}
   {% if page.title == "Home" %}
       {% capture page_title %}
