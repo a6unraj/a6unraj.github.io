@@ -18,15 +18,15 @@ The user who wants to access my quickviews can access it from the transaction SQ
 
 ![img3](https://a6unraj.github.io/assets/images/img3.jpg)
 
-1. In SQ01 : Menu Environment -> Query Areas, select Standard area(client-specific)
+In SQ01 : Menu Environment -> Query Areas, select Standard area(client-specific)
 
 ![img4](https://a6unraj.github.io/assets/images/img4.jpg)
 
-1. Edit-> Other user group and select the user group related to the quick view of the  user which has to be accessed
+Edit-> Other user group and select the user group related to the quick view of the  user which has to be accessed
 
 ![img5](https://a6unraj.github.io/assets/images/img5.jpg)
 
-1. This will list the quick views of the user and can be executed
+This will list the quick views of the user and can be executed
 
 ![img6](https://a6unraj.github.io/assets/images/img6.jpg)
 
