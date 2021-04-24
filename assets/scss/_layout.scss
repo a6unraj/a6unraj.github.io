@@ -293,76 +293,6 @@ hr {
   }
 }
 
-/**
- * The fixed Side 
- */
-.side {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 1000;
-  width: 60px;
-  border-right: 1px dashed rgba(0, 0, 0, 0.3);
-  color: rgba(0, 0, 0, 0.5);
-  font-family: "nimbus-sans", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: .0875rem;
-  font-size: 10px;
-  transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
-}
-.side:hover {
-  color: rgba(0, 0, 0, 0.5);
-}
-.side .side__inner {
-  position: relative;
-  height: 100%;
-  white-space: nowrap;
-}
-.side a {
-  color: inherit;
-  word-spacing: 0;
-  transition: all 0.3s cubic-bezier(0.05, 0.69, 0.14, 1);
-  text-decoration:none
-}
-.side .top,
-.side .menu {
-  position: absolute;
-  left: 0;
-  -webkit-transform: rotate(-90deg) perspective(1px);
-          transform: rotate(-90deg) perspective(1px);
-  -webkit-transform-origin: 60px 60px;
-          transform-origin: 60px 60px;
-  height: 60px;
-  line-height: 60px;
-  white-space: nowrap;
-  word-spacing: 15px;
-}
-.side .top {
-    top : auto;
-  text-align: right;
-  color: black;
-}
-.side .bottom {
-    position : fixed;
-  bottom : 3px;
-}
-.side .bottom:hover a {
-  color: rgba(0, 0, 0, 0.2);
-}
-.side .bottom:hover a:hover {
-  color: rgba(0, 0, 0, 0.8);
-}
-.side .menu
-{
-  text-align: center;
-  bottom : 100px;
-  color: black;
-}
-.side .menu a:hover
-{
- color: white;   
-}
 .wrapper
 {
 	margin-left : 60px;
@@ -370,14 +300,4 @@ hr {
 a
 {
 	word-wrap:break-word;
-}
-
-i
-{
-    color: #808080;    
-     font-size: 30px;
-}
-.active
-{
-color: #000000;    
 }
