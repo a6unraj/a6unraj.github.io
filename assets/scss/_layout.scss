@@ -336,7 +336,7 @@ hr {
   height: 60px;
   line-height: 60px;
   white-space: nowrap;
-  word-spacing: .5rem;
+  word-spacing: 15px;
 }
 .side .top {
     top : auto;
@@ -355,8 +355,7 @@ hr {
 }
 .side .menu
 {
-     font-size: 11px;
-     text-align: center;
+  text-align: center;
   bottom : 100px;
   color: black;
 }
