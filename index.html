@@ -13,7 +13,7 @@ title: Home
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
         {% if year != nyear %}
-          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+          <h2 class="category-title">{{ post.category }}</h2>
         {% endif %}
       {% endunless %}
       <article class="post-item">
