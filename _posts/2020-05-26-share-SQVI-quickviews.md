@@ -4,6 +4,7 @@ title: "Share SQVI Quick View to other users"
 comments: true
 description: "Make available Quick Views to other users"
 keywords: "SAP MDG"
+category: "SAP"
 ---
 
 I have few quick views created in SQVI and want it to be shared to other users.
