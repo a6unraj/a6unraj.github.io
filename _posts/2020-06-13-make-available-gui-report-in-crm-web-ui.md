@@ -4,6 +4,7 @@ title: "Make available SAP GUI report on CRM Web UI"
 comments: true
 description: "Make available SAP GUI report on CRM Web UI"
 keywords: "SAP CRM"
+category : "SAP"
 ---
 
 I have a GUI report (standard or z-report) and want it to be available in WebUI. <br/>
