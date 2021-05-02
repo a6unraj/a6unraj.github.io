@@ -60,4 +60,4 @@ location.replace(location.href.replace(memories.arunraj.eu, arunraj.eu/memories)
 </script>
 ```
 
-Now accessing the blogger url a6unraj.blogspot.com redirects and loads the blog posts in the subdirectory of my domain.
+Now accessing the blogger url [http://a6unraj.blogspot.com](http://a6unraj.blogspot.com) redirects and loads the blog posts in the subdirectory of my domain.
