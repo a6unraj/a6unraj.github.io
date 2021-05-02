@@ -13,7 +13,8 @@ Google replaced its URL shortener service goo.gl with Dynamic Links firebase.goo
 Pros : 
 1. Can be configured with your own custom-domain - I was able to register a TLD which is not that costly and use it as a URL shortener (arun.fyi).
 2. Can be configured as a dynamic link, if you own android and iphone apps, you can redirect the link behaviour to open in the respective apps. 
-3. Analytics is provided for the dynamic links created. 4) You can define your own dynamic link and change the deep links behind.
+3. Analytics is provided for the dynamic links created.
+4. You can define your own dynamic link and change the deep links behind.
 For example : I created the link arun.fyi/mp3 to redirect to some page in a6unraj.com domain 6 months ago and now I no longer want to use that domain, so I changed the deep link behind and now it redirects a page in different domain( arunraj.eu ).
 
 The setup is quite easy
