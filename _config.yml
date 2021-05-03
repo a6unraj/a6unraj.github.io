@@ -34,7 +34,8 @@ plugins:
   - jekyll-sitemap
   - bourbon
   - jekyll-paginate
-
+  - jekyll-feed
+  
 # navbar pages
 navbar:
   - slug : about
