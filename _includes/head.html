@@ -27,6 +27,13 @@ scJsHost+
   ga('create', 'UA-34033689-1', 'auto');
   ga('send', 'pageview');
 </script>
+  
+  <!-- HTTPS Redirect -->
+  <script>
+var host = "a6unraj.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
  
   {% assign page_title = '' %}
   {% if page.title == "Home" %}
