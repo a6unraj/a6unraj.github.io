@@ -16,7 +16,7 @@ Use the jamify starter template from the Netlify Template site
 [https://templates.netlify.com](https://templates.netlify.com)
 [https://templates.netlify.com/template/jamify-starter-ghost](https://templates.netlify.com/template/jamify-starter-ghost)
 Click Deploy to Netlify
-![img58](https://a6unraj.github.io/assets/images/img58.png)
+[![img58](https://a6unraj.github.io/assets/images/img58.png)](https://a6unraj.github.io/assets/images/img58.png)
 Connect to Github and enter the repo name that needs to be created
 ![img59](https://a6unraj.github.io/assets/images/img59.png)
 The site is deployed and will be available with a generated sub-domain on netlify
