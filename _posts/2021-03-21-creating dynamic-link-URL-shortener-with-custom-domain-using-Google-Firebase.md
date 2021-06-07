@@ -22,30 +22,30 @@ The setup is quite easy
 1. Buy the domain
 
 2. Create a project in Firebase console https://console.firebase.google.com/project/
-![img43](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img43.jfif)
-![img44](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img44.jfif)
-![img45](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img45.jfif)
-![img46](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img46.jfif)
+[![img43](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img43.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img43.jfif)
+[![img44](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img44.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img44.jfif)
+[![img45](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img45.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img45.jfif)
+[![img46](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img46.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img46.jfif)
 
 3. Setup URL Prefix
-![img47](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img47.jfif)
-![img48](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img48.jfif)
-![img49](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img49.jfif)
-![img50](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img50.jfif)
+[![img47](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img47.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img47.jfif)
+[![img48](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img48.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img48.jfif)
+[![img49](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img49.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img49.jfif)
+[![img50](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img50.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img50.jfif)
 
 4. Setup A records in the DNS settings where the domain was registered I have setup URL prefix for arun.fyi
 
 5. Start using the service once the URL prefix setup is completed.
-![img51](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img51.jfif)
+[![img51](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img51.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img51.jfif)
 
 6. Click on New Dynamic Link and you can define your own link
-![img52](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img52.jfif)
-![img53](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img53.jfif)
+[![img52](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img52.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img52.jfif)
+[![img53](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img53.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img53.jfif)
    Setup behaviour for android and iphone apps
-![img54](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img54.jfif)
-![img55](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img55.jfif)
+[![img54](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img54.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img54.jfif)
+[![img55](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img55.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img55.jfif)
    Setup meta tags for social media platforms
-![img56](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img56.jfif)
-![img57](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img57.jfif)
+[![img56](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img56.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img56.jfif)
+[![img57](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img57.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img57.jfif)
 
- The dynamic link is all setup and you can try it arun.fyi/clock
+ The dynamic link is all setup and you can try it [https://arun.fyi/clock](https://arun.fyi/clock)
