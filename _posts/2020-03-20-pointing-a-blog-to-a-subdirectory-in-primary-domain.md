@@ -9,10 +9,10 @@ category: "Web Hosting"
 
 The blog is first to be setup at the sub-domain.
 For ex :In the DNS management of my domain, I used CNAME records to point my sub domain to blogger.
-![img42](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img42.jfif)
+[![img42](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img42.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img42.jfif)
 
 Then I have added a sub directory in my hosting space using c-panel and added 2 files to the folder ( .htaccess and proxy.php)
-![img41](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img41.jfif)
+[![img41](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img41.jfif)](https://github.com/a6unraj/a6unraj.github.io/raw/master/assets/images/img41.jfif)
 
 
 The htaccess file with below code
