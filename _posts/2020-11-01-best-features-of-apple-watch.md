@@ -4,7 +4,7 @@ title: "Best features of apple watch"
 comments: true
 description: "Best features of apple watch"
 keywords: "Apple Watch SE"
-category: "Electronics"
+category: "Gadgets"
 ---
 <p>
 Apple watch SE is my first smart watch. I bought it specifically for the purpose of using it as an activity tracker(mainly for STRAVA) but after exploring it I find many other userful features that makes it unique among other smart watches
