@@ -4,7 +4,7 @@ title: "How to play youtube videos in background."
 comments: true
 description: "How to play youtube videos in background in android."
 keywords: "Android, Mobile"
-category: "Electronics"
+category: "Mobiles"
 ---
 
 2 Ways
