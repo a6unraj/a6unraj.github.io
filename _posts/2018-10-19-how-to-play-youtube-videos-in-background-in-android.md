@@ -16,4 +16,4 @@ category: "Electronics"
 </video>
 
 
-2) Use the app Newpipe(https://newpipe.net/) or Youtube Vanced(https://vancedapp.com/)
+2) Use the app [Newpipe](https://newpipe.net/) or [Youtube Vanced](https://vancedapp.com/)
