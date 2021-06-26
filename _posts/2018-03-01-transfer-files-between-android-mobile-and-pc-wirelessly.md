@@ -4,7 +4,7 @@ title: "Transfer files between Android Mobile and PC wirelessly"
 comments: true
 description: "Transfer files between Android Mobile and PC wirelessly"
 keywords: "Android, Mobile"
-category: "Electronics"
+category: "Mobiles"
 ---
 
 1) For transferring from PC to mobile the app Portal can be used.
