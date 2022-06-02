@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating a blog with Netlify, Ghost, GatsbyJS"
+title: "Creating a blog with Netlify, Ghost, DigitalPress"
 comments: true
 description: "Creating a blog with Netlify, Ghost, GatsbyJS"
 keywords: "Headless CMS"
