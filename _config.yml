@@ -36,15 +36,6 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   
-  jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
-  homepage: "pages"
-  
 # navbar pages
 navbar:
   - slug : about
