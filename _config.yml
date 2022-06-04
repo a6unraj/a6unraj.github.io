@@ -35,7 +35,6 @@ plugins:
   - bourbon
   - jekyll-paginate
   - jekyll-feed
-  - jekyll_admin
   
   jekyll_admin:
   hidden_links:
