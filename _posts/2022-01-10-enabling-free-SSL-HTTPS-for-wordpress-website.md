@@ -4,7 +4,7 @@ title: "Enabling free HTTPS/SSL for a self-hosted wordpress website"
 comments: true
 description: "Enabling free HTTPS/SSL for a self-hosted wordpress website"
 keywords: "HTTPS, SSL, Wesbite"
-category : "Web Development"
+category : "Web Hosting"
 ---
 
 I bought a cheap website hosting from [Atspace](https://www.atspace.com/), however I found that they are not giving SSL for free.
@@ -27,7 +27,7 @@ Create TXT record in the domains DNS management settings to verify the domain
 [![img93](https://a6unraj.github.io/assets/images/img93.jpg)](https://a6unraj.github.io/assets/images/img93.jpg)
 [![img94](https://a6unraj.github.io/assets/images/img94.jpg)](https://a6unraj.github.io/assets/images/img94.jpg)
 
-Copy Ccertificate, Private Key, Certificate Authority Bundle which is generated from LetsEncrypt and paste it in the SSL section of the domains control panel
+Copy Certificate, Private Key, Certificate Authority Bundle which is generated from LetsEncrypt and paste it in the SSL section of the domains control panel
 [![img95](https://a6unraj.github.io/assets/images/img95.jpg)](https://a6unraj.github.io/assets/images/img95.jpg)
 [![img96](https://a6unraj.github.io/assets/images/img96.jpg)](https://a6unraj.github.io/assets/images/img96.jpg)
 [![img97](https://a6unraj.github.io/assets/images/img97.jpg)](https://a6unraj.github.io/assets/images/img97.jpg)
