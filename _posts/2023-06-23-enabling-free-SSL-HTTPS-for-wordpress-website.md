@@ -17,4 +17,4 @@ URL redirects can be easily setup with Cloudflare free account where they offer 
 
 [![img86](https://a6unraj.github.io/assets/images/img117.jpg)](https://a6unraj.github.io/assets/images/img117.jpg)
 
-The above pages rules helped me redirect my main domain, subdomain and all the webpages in them to be redirected from my old domain arunraj.eu to new domain arunraj.me
+The above pages rules helped me redirect my main domain, subdomain and all the webpages in them to be redirected from my old domain [arunraj.eu](https://arunraj.eu) to new domain [arunraj.me](https://arunraj.me)
