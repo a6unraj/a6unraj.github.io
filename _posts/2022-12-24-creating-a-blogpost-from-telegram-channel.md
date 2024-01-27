@@ -36,4 +36,3 @@ Go to make.com and create the below scenario
 
 Create a post from Telegram and check it
 [![img116](https://a6unraj.github.io/assets/images/img116.jpg)](https://a6unraj.github.io/assets/images/img116.jpg)
-[![img117](https://a6unraj.github.io/assets/images/img117.jpg)](https://a6unraj.github.io/assets/images/img117.jpg)
