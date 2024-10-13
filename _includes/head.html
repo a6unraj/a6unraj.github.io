@@ -3,7 +3,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://a6unraj.com/img/logo.png" rel="icon" type="image/png" />
+  <link href="https://arunraj.me/img/logo.png" rel="icon" type="image/png" />
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
  <!-- Statcounter-->
@@ -34,7 +34,15 @@ var host = "tech.arunraj.eu";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
     window.location.protocol = "https";
 </script>
- 
+<script>
+if (location.host == tech.arunraj.eu)
+{
+location.replace(location.href.replace(tech.arunraj.eu, arunraj.eu/tech));
+}
+</script>
+
+
+  
   {% assign page_title = '' %}
   {% if page.title == "Home" %}
       {% capture page_title %}
