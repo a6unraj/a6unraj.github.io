@@ -59,5 +59,10 @@ location.replace(location.href.replace(memories.arunraj.eu, arunraj.eu/memories)
 }
 </script>
 ```
+Remember to add the below code in the header if the stylesheet is blocked with error
+Mixed Content: The page at 'https://arunraj.eu/memories/' was loaded over HTTPS, but requested an insecure stylesheet 'http://arunraj.eu/memories/assets/css/main.css'. This request has been blocked; the content must be served over HTTPS.
+```
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+```
 
 Now accessing the blogger url [http://a6unraj.blogspot.com](http://a6unraj.blogspot.com) redirects and loads the blog posts in the subdirectory of my domain.
