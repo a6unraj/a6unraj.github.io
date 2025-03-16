@@ -47,7 +47,7 @@ window.location.href = "https://arunraj.me/tech"
   {% assign page_title = '' %}
   {% if page.title == "Home" %}
       {% capture page_title %}
-        {{ site.title_left }}{{ site.title_right }} | {{ site.description }}
+        {{ site.title_left }}{{ site.title_right }}{{ site.description }}
         {%if paginator and paginator.page != 1 %} - {{ paginator.page }}{% endif %}
       {% endcapture %}
   {% else %}
