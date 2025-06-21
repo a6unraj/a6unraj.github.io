@@ -2,4 +2,4 @@
 
 > A space to log my experiences as a developer.
 
-- **URL:** https://tech.arunraj.eu
+- **URL:** https://arunraj.me/tech
