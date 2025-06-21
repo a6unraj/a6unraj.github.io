@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "A6un's Tech Blog" # default: ""
 title_right   : "" # default: ""
-description   : ""
+description   : "Tech Blog"
 keywords      : "Arun Raj, SAP Technical Consultant, Web Developer"
 url           : "" # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
