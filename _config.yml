@@ -4,7 +4,7 @@ title_right   : "" # default: ""
 description   : "A6un's Tech Blog" # default: ""
 keywords      : "Arun Raj, SAP Technical Consultant, Web Developer"
 url           : "https://arun.fyi" # site url
-baseurl       : "tech" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+baseurl       : "/tech" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "http://arun/fyi/profile.jpeg" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-34033689-1
