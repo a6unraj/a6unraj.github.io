@@ -3,9 +3,9 @@ title_left    : "" # default: ""
 title_right   : "" # default: ""
 description   : "A6un's Tech Blog" # default: ""
 keywords      : "Arun Raj, SAP Technical Consultant, Web Developer"
-url           : "" # site url
+url           : "https://tech.arun.fyi" # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
-cover         : "http://a6unraj.com/img/profile.png" # image uri like logo/cover image for site seo
+cover         : "http://arun/fyi/profile.jpeg" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-34033689-1
 twitter_username  : "a6unraj"
