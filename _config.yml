@@ -3,7 +3,7 @@ title_left    : "" # default: ""
 title_right   : "" # default: ""
 description   : "A6un's Tech Blog" # default: ""
 keywords      : "Arun Raj, SAP Technical Consultant, Web Developer"
-url           : "https://a6unraj.github.io/a6unraj.github.io" # site url
+url           : "" # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "http://arun/fyi/profile.jpeg" # image uri like logo/cover image for site seo
 
